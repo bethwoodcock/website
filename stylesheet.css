@@ -12,7 +12,8 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif }
 
 html {
   font-size: 20px; }
@@ -24,7 +25,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal; }
 
-h1 {
+b {
+  font-size: 1.5rem;
+  line-height: 0.95;
+  text-indent: -.15rem; }
+
+  h1 {
   font-size: 2.5rem;
   line-height: 0.95;
   text-indent: -.15rem; }
@@ -123,6 +129,11 @@ main {
   left: 0;
   right: 0;
   padding: 1rem; }
+
+.featured-img {
+  max-width: 60%;
+    height: auto;
+}
 
 /*
 CATEGORY COLORS
