@@ -162,8 +162,6 @@ header.top {
   padding-bottom: 0.5rem;
   border-bottom: 2px solid black;
   min-height: 110px; }
-  header.top h1 {
-    text-transform: uppercase; }
 
 /*
 NAVIGATION
